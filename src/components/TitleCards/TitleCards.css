@@ -1,8 +1,8 @@
-.title-cards{
+.titleCards{
  margin-top: 50px;
  margin-bottom: 30px;
 }
-.title-cards h2{
+.titleCards h2{
     margin-bottom: 8px;
 }
 .card-list{
@@ -29,5 +29,7 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    text-decoration: none;
+    color: white;   
 
 }

@@ -1,5 +1,6 @@
 .hero{
     position: relative;
+    height: 100vh;
 }
 .banner-img{
     width:100%;
