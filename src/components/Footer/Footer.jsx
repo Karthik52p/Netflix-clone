@@ -23,7 +23,7 @@ const Footer = () => {
                                <li>Legal Notice</li>
                                    <li>Contact info</li>
       </ul>
-      <p className='Copyright-text'>@ 1997-2023 Netflix, Inc.</p>
+      <p className='Copyright-text'>© Streamflix</p>
     </div>
   )
 }

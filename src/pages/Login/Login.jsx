@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './Login.css'
-import logo from '../../assets/logo.png'
+import logo from '../../../netflix_react_assets/assets/Streamflix.ico'
 import {login ,signup} from '../../Firebase'
 const Login = () => {
   const [signState,setsignState]=useState("Sign In")
@@ -40,8 +40,8 @@ const Login = () => {
           </div>
         </form>
         <div className="form-switch">
-          {signState==="Sign In" ? <p>New to Netflix?<span onClick={()=>{setsignState("Sign Up")}}>Sign Up Now</span></p>:<p>Already have account?<span onClick={()=>{setsignState("Sign In")}}>Sign In Now</span></p>}
-          {/* <p>New to Netflix?<span>Sign Up Now</span></p>
+          {signState==="Sign In" ? <p>New to Streamflix?<span onClick={()=>{setsignState("Sign Up")}}>Sign Up Now</span></p>:<p>Already have account?<span onClick={()=>{setsignState("Sign In")}}>Sign In Now</span></p>}
+          {/* <p>New to Streamflix?<span>Sign Up Now</span></p>
            <p>Already have account?<span>Sign In Now</span></p> */}
         </div>
       </div>

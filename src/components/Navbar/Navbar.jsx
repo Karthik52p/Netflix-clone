@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../../netflix_react_assets/assets/Streamflix.ico'
 import search_icon from '../../assets/search_icon.svg'
 import bell_icon from '../../assets/bell_icon.svg'
 import profile_img from '../../assets/profile_img.png'
@@ -36,7 +36,7 @@ const Navbar = () => {
           <img src={profile_img} alt="" className='profile' />
              <img src={caret_icon} alt="" />
              <div className="dropdown">
-              <p onClick={()=>{logout()}}>Sign Out of Netflix</p>
+              <p onClick={()=>{logout()}}>Sign Out of Streamflix</p>
              </div>
         </div>
       </div>

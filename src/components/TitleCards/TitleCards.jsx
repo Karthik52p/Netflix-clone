@@ -37,7 +37,7 @@ const TitleCards = ({title, category}) => {
   }, []);
   return (
     <div className='titleCards'>
-      <h2>{title?title:"Popular on Netflix"}</h2>
+      <h2>{title?title:"Popular on Streamflix"}</h2>
       <div className="card-list" ref={cardsRef}>
         {
           apiData && apiData.length > 0 ? apiData.map((card, index) => {
